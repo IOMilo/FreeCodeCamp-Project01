@@ -1,0 +1,58 @@
+html, body {
+    background-color: #171717;
+}
+
+.main {
+    max-width: 991px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-auto-rows: minmax(100px, auto);
+    grid-template-areas:
+        "hd hd"
+        "tt tt"
+        "in in"
+        "at as"
+        "at as"
+        "at as"
+        "at as"
+        "at as"
+        "ft ft";
+}
+
+.header {
+    grid-area: hd;
+}
+
+.title {
+    grid-area: tt;
+}
+
+.intro {
+    grid-area: in;
+}
+
+.article {
+   
+}
+
+.aside {
+   
+}
+
+.footer {
+    grid-area: ft;
+}
+
+.img-div {
+
+}
+
+.image {
+
+}
+
+.img-caption {
+
+}
+
