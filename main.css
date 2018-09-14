@@ -1,37 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Archivo+Black|Archivo+Narrow');
+
 html, body {
     background-color: #171717;
+    color: #e8e8e8;
 }
 
-.main {
+p {
+    color: #e8e8e8;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 0 20px 20px 0;
+}
+
+h1 {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 73px;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+#main {
     max-width: 991px;
     margin: auto;
+
+}
+
+#title {
+    font-size: 1px;
+    opacity: 0%;
+}
+
+#header {
+
+}
+#tribute-info {
     display: grid;
     grid-template-columns: 2fr 1fr;
-    grid-auto-rows: minmax(100px, auto);
-    grid-template-areas:
-        "hd hd"
-        "tt tt"
-        "in in"
-        "at as"
-        "at as"
-        "at as"
-        "at as"
-        "at as"
-        "ft ft";
+    grid-auto-rows: minmax(0px, auto);
 }
 
-.header {
-    grid-area: hd;
-}
+#tribute-link {
 
-.title {
-    grid-area: tt;
 }
-
-.intro {
-    grid-area: in;
-}
-
 .article {
    
 }
@@ -41,18 +57,20 @@ html, body {
 }
 
 .footer {
-    grid-area: ft;
-}
-
-.img-div {
 
 }
 
-.image {
+#img-div {
 
 }
 
-.img-caption {
+#image {
+    max-width: 100%;
+    height: auto;
+}
+
+#img-caption {
 
 }
+
 
